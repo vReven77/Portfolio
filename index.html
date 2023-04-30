@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=DM+Sans&family=Inter:wght@300&family=Josefin+Sans&family=Libre+Baskerville&family=Poppins&display=swap" rel="stylesheet">    <title>Portfolio | Home</title>
+    <script src="https://kit.fontawesome.com/960295115a.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar-small-menu" id="navbar-small-menu">
+        <a class="navbar-small-selector" href="#work">Work</a>
+        <a class="navbar-small-selector" href="#about">About</a>
+        <a class="navbar-small-selector" href="#contact">Contact</a>
+        <button class="navbar-small-close" onclick="closeSmallNavbar()"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <header class="header">
+        <a href="#" class="title">Portfolio.</a>
+
+        <nav class="navbar">
+            <a class="navbar-selector" href="#work">Work</a>
+            <a class="navbar-selector" href="#about">About</a>
+            <a class="navbar-selector" href="#contact">Contact</a>
+        </nav>
+        <nav class="navbar-small">
+            <button class="navbar-small-button"><i class="fa-solid fa-bars" onclick="openSmallNavbar()"></i></button>
+        </nav>
+    </header>
+
+    <section class="main">
+        <div class="main-content">
+            <div class="main-informations">
+                <h3 id="main-first-title">Hi, welcome to my Portfolio</h3>
+                <h1 id="main-second-title">My Name Is <span>Yavuz Samil Güngör</span></h1>
+                <h3 id="main-third-title">I am a <span id="multi-text"></span></h3>
+                <p id="info-text">I am a Web Developer which is just 14 years old.</p>
+                
+                <div class="main-image2">
+                    <img id="main-image2" src="assets/myself.png">
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.youtube.com/channel/UCEAdeQKodpb-A3Tli4KKx1A"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com/RevenFNBR"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.twitch.tv/revenfnr"><i class="fa-brands fa-twitch"></i></a>
+                </div>
+                <br>
+                <a id="main-contact" href="#contact">Contact Me</a> 
+            </div>
+
+            <div class="main-image">
+                <img id="main-image" src="assets/myself.png">
+            </div>
+
+        </div>
+        <p class="main-working">Working with <a href="https://mieteinbauschild.jimdosite.com/">MietEinBauschild.de, <a href="https://kuechen-wand.de">Kuechen-Wand.de</a>, Schilderwerk-Sued</a></p>
+    </section>
+
+    <section class="main-2" id="work">
+        <h2 class="main-2-title">My Work</h2>
+
+        <div class="main-2-items">
+            <div id="main-item-1" class="main-2-item">
+                <img src="assets/globe.png">
+                <h3>Rhein-Galerie Website</h3>
+                <p>I did a website for my school project and i chose the nearest shopping center Rhein-Galerie</p>
+            </div>
+            <div id="main-item-2" class="main-2-item">
+                <img src="assets/notification.png">
+                <h3>Application</h3>
+                <p>In the past I made some Apps with C# and Python for my self-use, school or work</p>
+            </div>
+            <div id="main-item-3" class="main-2-item">
+                <img src="assets/globe.png">
+                <h3>GTA FiveM Roleplay</h3>
+                <p>I also made some popuplar GTA FiveM RolePlay Servers named: Champion RolePlay, Print RolePlay and OnPoin t RolePlay</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-3" id="about">
+        <h2 class="main-3-title">About Me</h2>
+
+        <div class="main-3-content">
+            <div class="main-3-language">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-html5"></i><h3>HyperText Markup Language 5</h3>
+                        <p>90%</p>
+                        <div class="progress-bar">
+                            <div class="progess-fill-90"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-css3-alt"></i><h3>Cascading Style Sheets 3</h3>
+                        <p>80%</p>
+                        <div class="progress-bar">
+                            <div class="progess-fill-80"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-js"></i><h3>JavaScript</h3>
+                        <p>20%</p>
+                        <div class="progress-bar">
+                            <div class="progess-fill-20"></div>
+                        </div>
+                    </li>
+                </ul>    
+    
+            </div>
+            <div class="main-3-informations">
+                  <p>I started progamming 2020 at the age of 12 with lua. I used lua for my GTA FiveM Scripts and from that point I started learning more. for example a bit of HTML5 and CSS3. I hosted Servers for FiveM and became popular. I stopped hosting and coding FiveM Scripts/Servers because of E-Sport. I am currently signed at Pro Gaming Society and playing Valorant and Fortnite for them. I also used to play Basketball for 1 year and still playing with my friends. Now I am here, trying to becoming a good Web Developer. I am currently learning HTML5,CSS3 and JavaScript with daily improvements. After that i am going to start learning php for database connection and stuff like that.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-4" id="contact">
+        <h2>Contact Me</h2>
+
+        <div class="contact-content">
+            <p>You can contact me through WhatsApp: <a href="https://wa.me/4917662314928">Click here -> <i class="fa-brands fa-whatsapp"></i></a></p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <nav class="navbar-footer">
+            <h2>Portfolio</h2>
+            <a class="navbar-footer-selector" href="#work">Work</a>
+            <a class="navbar-footer-selector" href="#about">About</a>
+            <a class="navbar-footer-selector" href="#contact">Contact</a>
+        </nav>
+        <div class="socials-footer">
+            <h2>Socials</h2>
+            <a href="https://www.youtube.com/channel/UCEAdeQKodpb-A3Tli4KKx1A"><i class="fa-brands fa-youtube"></i> YouTube</a>
+            <a href="https://twitter.com/RevenFNBR"><i class="fa-brands fa-twitter"></i> Twitter</a>
+            <a href="https://www.twitch.tv/revenfnr"><i class="fa-brands fa-twitch"></i> Twitch</a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#multi-text', {
+            strings: ["Front End Developer", "E-Sportler", "Basketball Player"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 1000,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
